@@ -1,0 +1,555 @@
+header {
+  width: 100%;
+  background-color: white;
+  height: 60px;
+  border-bottom: 1px solid #e4e6ea;
+}
+header .logo {
+  height: 20px;
+  margin-left: 150px;
+  position: relative;
+  top: 15px;
+}
+header nav {
+  margin-left: 500px;
+}
+header nav:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+header nav .clearfix {
+  display: inline-block;
+}
+header nav * html .clearfix {
+  height: 1%;
+}
+header nav .clearfix {
+  display: block;
+}
+header .navItem {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #5d6981;
+  font-size: 15px;
+  font-family: Calibri;
+  position: relative;
+  bottom: 10px;
+}
+header .mainItem {
+  border: 1px solid #5d6981;
+  border-radius: 25px;
+  padding: 10px 25px;
+  margin-left: 25px;
+  text-decoration: none;
+  color: #5d6981;
+  font-size: 15px;
+  font-family: Calibri;
+  position: relative;
+  bottom: 10px;
+}
+header .socialFace,
+header .socialTwitter {
+  margin-left: 5px;
+  position: relative;
+  left: 970px;
+  bottom: 40px;
+}
+.one {
+  height: 1000px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.one h1 {
+  font-size: 45px;
+  text-align: center;
+  font-family: Verdana;
+  color: #0149a1;
+}
+.one h3 {
+  font-size: 25px;
+  text-align: center;
+  font-family: Verdana;
+  color: #5d6981;
+  font-weight: lighter;
+  position: relative;
+  bottom: 25px;
+}
+.one .button {
+  background-color: #ff2d55;
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 45px;
+  font-weight: bold;
+  font-family: Verdana;
+  position: relative;
+  top: 50px;
+  left: 560px;
+}
+.one .pc {
+  background: url("player.png") no-repeat;
+  height: 500px;
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+}
+.one .leftSpan {
+  display: block;
+  width: 210px;
+  height: 300px;
+  background: url("left-span.png") no-repeat;
+  position: absolute;
+  top: 35px;
+  left: -100px;
+}
+.one .rightSpan {
+  display: block;
+  width: 310px;
+  height: 400px;
+  background: url("right-span.png") no-repeat;
+  position: absolute;
+  bottom: 105px;
+  right: -205px;
+}
+.one .buttonPlay {
+  background: url('tileplay.png') repeat-x;
+  border: none;
+  height: 30px;
+  position: relative;
+  top: 160px;
+  left: 320px;
+}
+.one .leftButton {
+  background: url('lefttile.png') no-repeat;
+  height: 30px;
+  width: 20px;
+  position: absolute;
+  top: 0;
+  left: -20px;
+}
+.one .rightButton {
+  background: url('righttile.png') no-repeat;
+  height: 30px;
+  width: 25px;
+  position: absolute;
+  top: 0px;
+  right: -25px;
+}
+.optionHolder {
+  height: auto;
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+.optionHolder:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.optionHolder .clearfix {
+  display: inline-block;
+}
+.optionHolder * html .clearfix {
+  height: 1%;
+}
+.optionHolder .clearfix {
+  display: block;
+}
+.optionHolder div.chat {
+  margin-left: 10px;
+}
+.optionHolder .chat,
+.optionHolder .social,
+.optionHolder .ideas,
+.optionHolder .technology {
+  float: left;
+  height: 300px;
+  width: 210px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+.optionHolder .chat img,
+.optionHolder .social img,
+.optionHolder .ideas img,
+.optionHolder .technology img {
+  height: 80px;
+}
+.optionHolder .chat h4,
+.optionHolder .social h4,
+.optionHolder .ideas h4,
+.optionHolder .technology h4 {
+  font-size: 30px;
+  color: #5d6981;
+  font-family: Calibri;
+  text-align: center;
+  font-weight: 600;
+}
+.optionHolder .chat p,
+.optionHolder .social p,
+.optionHolder .ideas p,
+.optionHolder .technology p {
+  position: relative;
+  bottom: 25px;
+  font-family: Calibri;
+  font-size: 15px;
+  line-height: 20px;
+}
+.secondContainer {
+  background-color: #0149a1;
+  height: 750px;
+  width: 100%;
+}
+.secondContainer:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.secondContainer .clearfix {
+  display: inline-block;
+}
+.secondContainer * html .clearfix {
+  height: 1%;
+}
+.secondContainer .clearfix {
+  display: block;
+}
+.secondContainer h1 {
+  font-size: 45px;
+  text-align: center;
+  font-family: Verdana;
+  color: #ffffff;
+  position: relative;
+  top: 50px;
+}
+.secondContainer h3 {
+  font-size: 25px;
+  text-align: center;
+  font-family: Verdana;
+  color: #5d6981;
+  font-weight: lighter;
+  position: relative;
+  top: 20px;
+}
+.secondContainer .diagram {
+  margin-left: 170px;
+  margin-top: 100px;
+}
+.secondContainer article {
+  width: 40%;
+  float: right;
+  color: #f0f4f9;
+  margin-right: 115px;
+  position: relative;
+  bottom: 290px;
+}
+.secondContainer article .diagramText {
+  font-size: 20px;
+  font-family: Calibri;
+  line-height: 35px;
+}
+.secondContainer .buttonTwo {
+  background-color: #ff2d55;
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 45px;
+  font-weight: bold;
+  font-family: Verdana;
+  background-color: #ffffff;
+  color: #0149a1;
+  position: relative;
+  top: 150px;
+  left: 560px;
+}
+.thirdContainer {
+  height: 1000px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.thirdContainer:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.thirdContainer .clearfix {
+  display: inline-block;
+}
+.thirdContainer * html .clearfix {
+  height: 1%;
+}
+.thirdContainer .clearfix {
+  display: block;
+}
+.thirdContainer h1 {
+  font-size: 45px;
+  text-align: center;
+  font-family: Verdana;
+  color: #0149a1;
+  position: relative;
+  top: 50px;
+  left: 465px;
+  /* zaglavieto ne se centrira, dobavih mu left i width, za da */
+  width: 400px;
+  /*ne se schupi layout-a */
+}
+.thirdContainer h3 {
+  font-size: 25px;
+  text-align: center;
+  font-family: Verdana;
+  color: #5d6981;
+  font-weight: lighter;
+  position: relative;
+  top: 20px;
+}
+.thirdContainer .imgHolder {
+  height: auto;
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  display: inline-block;
+  display: block;
+}
+.thirdContainer .imgHolder .photo {
+  float: left;
+  height: 300px;
+  width: 210px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+.thirdContainer .imgHolder .photo img {
+  height: 80px;
+}
+.thirdContainer .imgHolder .photo h4 {
+  font-size: 30px;
+  color: #5d6981;
+  font-family: Calibri;
+  text-align: center;
+  font-weight: 600;
+}
+.thirdContainer .imgHolder .photo p {
+  position: relative;
+  bottom: 25px;
+  font-family: Calibri;
+  font-size: 15px;
+  line-height: 20px;
+}
+.thirdContainer .buttonThree {
+  background-color: #ff2d55;
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 45px;
+  font-weight: bold;
+  font-family: Verdana;
+  position: relative;
+  top: 400px;
+  right: 560px;
+}
+.thirdContainer .map {
+  margin-top: 500px;
+}
+.fourthContainer {
+  width: 100%;
+  height: 750px;
+  background-color: #0149a1;
+}
+.fourthContainer .footerHolder {
+  height: auto;
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+.fourthContainer .footerHolder:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.fourthContainer .footerHolder .clearfix {
+  display: inline-block;
+}
+.fourthContainer .footerHolder * html .clearfix {
+  height: 1%;
+}
+.fourthContainer .footerHolder .clearfix {
+  display: block;
+}
+.fourthContainer .footerHolder .footerContent {
+  float: left;
+  height: 300px;
+  width: 210px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-left: 10px;
+  text-align: left;
+}
+.fourthContainer .footerHolder .footerContent img {
+  height: 80px;
+}
+.fourthContainer .footerHolder .footerContent h4 {
+  font-size: 30px;
+  color: #5d6981;
+  font-family: Calibri;
+  text-align: center;
+  font-weight: 600;
+}
+.fourthContainer .footerHolder .footerContent p {
+  position: relative;
+  bottom: 25px;
+  font-family: Calibri;
+  font-size: 15px;
+  line-height: 20px;
+}
+.fourthContainer .footerHolder .footerContent h5 {
+  text-align: left;
+  text-indent: 40px;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: Verdana;
+  font-weight: normal;
+}
+.fourthContainer .footerHolder .footerContent ul {
+  list-style-type: none;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: Verdana;
+}
+.fourthContainer .footerText {
+  color: #bfd1e7;
+  font-size: 20px;
+  font-family: Verdana;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  margin: 0 100px;
+}
+.fourthContainer .reference {
+  color: #bfd1e7;
+  font-size: 20px;
+  font-family: Verdana;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  margin: 0 100px;
+}
+.fourthContainer .reference .footerLink {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix .clearfix {
+  display: inline-block;
+}
+.clearfix * html .clearfix {
+  height: 1%;
+}
+.clearfix .clearfix {
+  display: block;
+}
+.whiteContainer {
+  height: 1000px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.blueContainer {
+  width: 100%;
+  height: 750px;
+  background-color: #0149a1;
+}
+.bigHeadline {
+  font-size: 45px;
+  text-align: center;
+  font-family: Verdana;
+}
+.smallHeadline {
+  font-size: 25px;
+  text-align: center;
+  font-family: Verdana;
+  color: #5d6981;
+  font-weight: lighter;
+}
+.pinkButton {
+  background-color: #ff2d55;
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 45px;
+  font-weight: bold;
+  font-family: Verdana;
+}
+.smallDivStyle {
+  float: left;
+  height: 300px;
+  width: 210px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+.smallDivStyle img {
+  height: 80px;
+}
+.smallDivStyle h4 {
+  font-size: 30px;
+  color: #5d6981;
+  font-family: Calibri;
+  text-align: center;
+  font-weight: 600;
+}
+.smallDivStyle p {
+  position: relative;
+  bottom: 25px;
+  font-family: Calibri;
+  font-size: 15px;
+  line-height: 20px;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url('overlay-tile.png');
+  display: none;
+}
+.player {
+  background-color: #ffffff;
+  height: 400px;
+  width: 500px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}

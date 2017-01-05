@@ -1,0 +1,296 @@
+.clearfix {
+  /* start commented backslash hack \*/
+  /* close commented backslash hack */
+}
+.clearfix .clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix .clearfix {
+  display: inline-block;
+}
+.clearfix * html .clearfix {
+  height: 1%;
+}
+.clearfix .clearfix {
+  display: block;
+}
+.max-width {
+  width: 1330px;
+}
+.mid-width {
+  width: 260px;
+}
+.max-height {
+  height: 595px;
+}
+.mid-height {
+  height: 300px;
+}
+.big-verdana {
+  font-family: verdana ;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+.md-verdana {
+  font-family: verdana;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.sm-verdana {
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+.button {
+  width: 390px;
+  height: 170px;
+  padding: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+}
+body {
+  margin: 0 auto;
+}
+header {
+  width: 1330px;
+  height: 595px;
+  background-color: #87509c;
+}
+header .menu {
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+header .hi {
+  font-family: verdana ;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  width: 800px;
+  margin-left: 300px;
+  margin-top: 150px;
+}
+header .logo {
+  position: relative;
+  right: 420px;
+}
+header .menu {
+  display: inline-block;
+  margin-top: 60px;
+  margin-right: 80px;
+  padding: 10px;
+  left: 700px;
+  position: relative;
+}
+header #button1 {
+  width: 390px;
+  height: 170px;
+  border-radius: 3px;
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #eb7d4b;
+  margin-left: 550px;
+  padding: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  position: relative;
+  top: 100px;
+}
+#work-area {
+  width: 1330px;
+  height: 595px;
+  background-color: #17c2a4;
+}
+#work-area .headline {
+  max-width: 500px;
+  font-family: verdana ;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  margin-top: 0;
+  padding-top: 60px;
+  width: 490px;
+  margin-left: 480px;
+}
+#work-area .line {
+  padding-left: 630px;
+  position: relative;
+  padding-bottom: 40px;
+}
+#work-area .work-orientation {
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  padding-left: 250px;
+}
+#work-area .holder {
+  width: 1100px;
+  margin-top: 50px;
+  left: 150px;
+  position: absolute;
+  text-align: center;
+  /* start commented backslash hack \*/
+  /* close commented backslash hack */
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+#work-area .holder .clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#work-area .holder .clearfix {
+  display: inline-block;
+}
+#work-area .holder * html .clearfix {
+  height: 1%;
+}
+#work-area .holder .clearfix {
+  display: block;
+}
+#work-area .holder .flag,
+#work-area .holder .design,
+#work-area .holder .development,
+#work-area .holder .rocket {
+  width: 260px;
+  display: inline-block;
+  float: left;
+}
+#work-area .holder h2 {
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+#work-area .holder .style {
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+#connect {
+  width: 1330px;
+  height: 825px;
+  background-color: #3c5499;
+}
+#connect .style1 {
+  font-family: verdana ;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+  left: 90px;
+  max-width: 500px;
+}
+#connect .style2 {
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  max-width: 790px;
+  position: relative;
+  top: 100px;
+  left: 350px;
+}
+#connect .line2 {
+  position: relative;
+  top: 100px;
+  left: 630px;
+}
+#connect #button2 {
+  width: 390px;
+  height: 170px;
+  padding: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 3px;
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #30bae7;
+  position: relative;
+  top: 250px;
+  left: 580px;
+  box-shadow: 2px 2px #299ec5;
+}
+#connect form #name,
+#connect form #email,
+#connect form #message {
+  background-color: #273a71;
+  border-radius: 4px;
+  border: none;
+  top: 180px;
+  position: relative;
+  left: 250px;
+}
+#connect form #name,
+#connect form #email {
+  width: 392px;
+  height: 30px;
+  padding: 10px;
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+#connect form #name {
+  margin-right: 30px;
+}
+#connect form #message {
+  width: 860px;
+  margin-top: 30px;
+  height: 200px;
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+footer {
+  width: 1330px;
+  height: 110px;
+  background-color: #273a71;
+}
+footer .mgp {
+  font-family: verdana;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  padding: 40px;
+  top: 40px;
+  position: relative;
+  left: 150px;
+}
+.mgp:active {
+  color: #30bae7;
+}
+.menu:hover {
+  background-color: #643a79;
+  border-radius: 3px;
+}

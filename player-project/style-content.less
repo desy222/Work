@@ -1,0 +1,318 @@
+header {
+	width: 100%;
+	background-color: white;
+	height: 60px;
+	border-bottom: 1px solid @silver;
+
+	.logo {
+		height: 20px;
+		margin-left: 150px;
+		position: relative;
+		top:15px;
+	}
+
+	nav {
+		margin-left: 500px;
+
+		.clearfix;
+	}
+
+	.navItem {
+		margin-left: 25px;
+		text-decoration: none;
+		color: @gray;
+		font-size: 15px;
+		font-family: Calibri;
+		position: relative;
+		bottom: 10px;
+	}
+
+	.mainItem {
+		border: 1px solid @gray;
+		border-radius: 25px;
+		padding: 10px 25px;
+		margin-left: 25px;
+		text-decoration: none;
+		color: #5d6981;
+		font-size: 15px;
+		font-family: Calibri;
+		position:relative;
+		bottom: 10px;
+
+	}
+
+	.socialFace,
+	.socialTwitter {
+		margin-left: 5px;
+		position: relative;
+		left: 970px;
+		bottom: 40px;
+
+	}
+}
+
+.one {
+	.whiteContainer;
+
+	h1 {
+		.bigHeadline;
+
+		color: @blue;
+	}
+
+	h3 {
+		.smallHeadline;
+			position: relative;
+			bottom: 25px;
+	}
+
+	.button {
+		.pinkButton;
+		
+		position: relative;
+		top: 50px;
+		left: 560px;
+	}
+
+	.pc {
+		background: url("player.png") no-repeat;
+		height: 500px;
+		width: 700px;
+		margin: 0 auto;
+		position: relative;
+		top: 150px;
+	}
+
+	.leftSpan {
+		display: block;
+		width: 210px;
+		height: 300px;
+		background: url("left-span.png") no-repeat;
+		position: absolute;
+		top: 35px;
+		left: -100px;
+}
+
+  	.rightSpan {
+		display: block;
+  		width: 310px;
+  		height: 400px;
+  		background: url("right-span.png") no-repeat;
+  		position: absolute;
+  		bottom: 105px;
+  		right: -205px;
+  	}	
+
+  	.buttonPlay {
+  		background: url('tileplay.png') repeat-x;
+  		border: none;
+  		height: 30px;
+  		position: relative;
+  		top: 160px;
+  		left: 320px;
+  	}
+
+  	.leftButton {
+		background: url('lefttile.png') no-repeat;
+		height: 30px;
+		width: 20px;
+		position: absolute;
+		top: 0;
+		left: -20px;
+	}
+	.rightButton {
+  		background: url('righttile.png') no-repeat;
+  		height: 30px;
+  		width: 25px;
+  		position: absolute;
+  		top: 0px;
+  		right: -25px;
+	}
+
+}
+
+.optionHolder {
+	height: auto;
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+
+	.clearfix;
+
+	div.chat {
+		margin-left: 10px;
+	}
+
+	.chat,
+	.social,
+	.ideas,
+	.technology {
+		.smallDivStyle;
+}
+}
+
+.secondContainer {
+	background-color: @blue;
+	height: 750px;
+	width: 100%;
+
+	.clearfix;
+
+	h1 {
+		.bigHeadline;
+
+		color: @white;
+		position: relative;
+		top: 50px;
+	}
+
+	h3 {
+		.smallHeadline;
+
+		position: relative;
+		top: 20px;
+	}	
+
+	.diagram {
+		margin-left: 170px;
+		margin-top: 100px;
+	}
+
+	article {
+		width: 40%;
+		float: right;
+		color: @silver-white;
+		margin-right: 115px;
+		position: relative;
+		bottom: 290px;
+
+		
+		.diagramText {
+			font-size: 20px;
+			font-family: Calibri;
+			line-height: 35px;
+		}
+	}
+
+
+	.buttonTwo {
+		.pinkButton;
+		background-color: @white;
+		color: @blue;
+		position: relative;
+		top: 150px;
+		left: 560px;
+	}
+
+}
+
+.thirdContainer {
+	.whiteContainer;
+
+	.clearfix;
+
+	h1 {
+		.bigHeadline;
+
+		color: @blue;
+		position: relative;
+		top: 50px;
+		left: 465px;     /* zaglavieto ne se centrira, dobavih mu left i width, za da */
+		width: 400px;   /*ne se schupi layout-a */
+	}
+
+	h3 {
+		.smallHeadline;
+
+		position: relative;
+		top: 20px;
+	}
+
+	.imgHolder {
+		height: auto;
+		width: 900px;
+		margin: 0 auto;
+		position: relative;
+		top: 50px;
+
+		.clearfix;
+
+		.photo {
+			.smallDivStyle;
+		}	
+	}
+
+	.buttonThree {
+		.pinkButton;
+
+		position: relative;
+		top: 400px;
+		right: 560px;
+	}
+
+	.map {
+		margin-top: 500px;
+	}
+}
+.fourthContainer {
+	.blueContainer;
+
+	.footerHolder {
+		height: auto;
+		width: 900px;
+		margin: 0 auto;
+		position: relative;
+		top: 50px;
+
+		.clearfix;
+
+		.footerContent {
+			.smallDivStyle;
+			text-align: left;
+			
+			h5 {
+				text-align: left;
+				text-indent: 40px;
+				font-size: 20px;
+				color: @white;
+				font-family: Verdana;
+				font-weight: normal;
+			}
+
+			ul {
+				list-style-type: none;
+				font-size: 20px;
+				color: @white;
+				font-family: Verdana;
+			}
+		}
+	}
+
+	.footerText {
+				color: @gray-white;
+				font-size: 20px;
+				font-family: Verdana;
+				text-align: center;
+				position: relative;
+				top: 150px;
+    			margin: 0 100px;
+			}
+
+			.reference {
+    				color: @gray-white;
+					font-size: 20px;
+					font-family: Verdana;
+					text-align: center;
+					position: relative;
+					top: 150px;
+    				margin: 0 100px;
+
+    				.footerLink {
+    					text-decoration: none;
+    					color: @white;
+    					font-weight: bold;
+    				}
+    			}
+}
+
