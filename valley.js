@@ -9,13 +9,14 @@ function solve(args) {
         }
         return false;
     }
+    
     let peaks = [];
-
     numbers.forEach(function(number, ind){
         if(isPeak(ind)){
             peaks.push(ind);
         }
     });
+    
     let maxValleySum = 0;
     for(let i = 1; i < peaks.length; i += 1) {
         let startIndex = peaks[i - 1];
