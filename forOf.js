@@ -13,3 +13,5 @@
     }}
     
     console.log(words);
+
+/**Logs { word: 3, number: 1, pesho: 1 } */
