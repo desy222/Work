@@ -1,18 +1,4 @@
-//Write a program that finds in given array of integers a sequence of given sum S (if present).
-
-// function solve(sum, array) {
-//     var currentSum = 0;
-//     var start = array[0];
-//     for(let i=0; i<array.length; i+=1) {
-//         while(currentSum < sum) {
-//             currentSum = array[start[i]++];
-//         }
-//         console.log(currentSum);
-//     }
-    
-// }
-
-// solve(11, [4, 3, 1, 4, 2, 5, 8]);
+/**Write a program that finds in given array two integers , the sum of them should be = to given number. */
 
 var unSortedArr = [2, 3, 2, 5, 4, 5, 5, 5, 5, 9, 6, 8, 8, 7];
 var sum = 10;
@@ -21,22 +7,22 @@ function pairMatchingSum (arr, sum) {
   var start, end, tempSum;
 
   var i = 0 ;
-  var j = arr.length - 1;
+  var j = arr.length - 1; /**The last index of the array */
 
   // Create a new Object instance
   var s = {};
-  var sortedArr = arr.sort();
-  //console.log(sortedArr)
+  var sortedArr = arr.sort(); 
+/**The program begins to compare 1st and last index ,after that it compares index[i+1] and index[arr.length] and so on until
+ * it goes right in the middle where i == j. When this happens
+ */
   while (i !== j) {
     start = sortedArr[i];
     end = sortedArr[j];
     tempSum = start + end;
-    //console.log(start);
-    //console.log(end);
     if (tempSum === sum) {
       
-      s[start +'-'+ end] = true;
-      
+      s[start +'-'+ end] = true; /**Put the true statements in the empty object. 
+      After that it continues to increase i and decrement j with step 1*/
       i++;
       j--;
       
