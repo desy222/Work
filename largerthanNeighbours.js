@@ -14,4 +14,4 @@ function solve(arr) {
         console.log(firstLargerThanNeighbours);
     }
 }
-solve([-26, -25, -28, 31, 2, 27]);
+solve([-26, -25, -28, 31, 2, 27]); // Output -25;
