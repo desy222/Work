@@ -8,9 +8,8 @@ const wordArray = 'word pesho number word pesho word word word vsetaq'
 let words = {};
 
 for (let word of wordArray) {
-    //words[word] = true;
-    
-     /**console.log(words); => { word: true, pesho: true, number: true, vsetaq: true } */
+    //words[word] = true; => /**console.log(words); => { word: true, pesho: true, number: true, vsetaq: true } */
+     
      if(words.hasOwnProperty(word)){ 
         words[word] += 1;              /**adding 1 to the value of the property in words object*/
         
