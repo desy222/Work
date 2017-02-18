@@ -10,7 +10,7 @@ function solve(arr){
 
             largest = arr[i];         
             newObj.arrLargest = largest;  /**
-             assign largest to the newObj arrLargest propery */
+             assign largest to the newObj arrLargest property */
             
             function findDistance () { /**function which compares the distances between neighbours of largest el-ts */
                 
