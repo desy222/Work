@@ -44,4 +44,4 @@ function solve(arr) {
          
 
 };
-solve(); 
+solve(arr); 
