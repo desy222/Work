@@ -47,5 +47,3 @@ difference
 };
 
 solve(randomNumber);
-
-/**iskame da se generira koda, sled tova da se podade kato parametur na funkcia  */
