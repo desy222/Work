@@ -42,8 +42,7 @@ console.log('All the random numbers the program compares : ',array);
 console.log(`This is the array that contains all the objects that we compare`,newArray); 
 
 console.log(`This is the object that contains number bigger than its neighbours and compared to the other largest nums it has the biggest 
-difference 
-        with its neighbours `, theBiggestNum);
+difference with its neighbours `, theBiggestNum);
 };
 
 solve(randomNumber);
